@@ -1,6 +1,8 @@
-# React + Vite
+# Workplace Anthropology Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+職場人類學測驗應用 - 測測你是哪種設計師類型？
+
+Built with React + Vite + Tailwind CSS
 
 Currently, two official plugins are available:
 
