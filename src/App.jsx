@@ -342,7 +342,7 @@ export default function App() {
           {/* --- QUIZ --- */}
           {step === 'quiz' && (
             <motion.div
-              key="quiz"
+              key={`quiz-${currentQ}`}
               initial={{ x: 50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: -50, opacity: 0 }}
@@ -358,7 +358,7 @@ export default function App() {
               <div className="space-y-3">
                 {questions[currentQ].options.map((option, idx) => (
                   <motion.button
-                    key={option.val}
+                    key={`q${currentQ}-${option.val}`}
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: idx * 0.05 }}
