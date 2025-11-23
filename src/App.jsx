@@ -2,6 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, RefreshCcw, Zap, Crosshair, Sparkles, Share2, Download, ScanLine, Fingerprint, Activity, Binary } from 'lucide-react';
 import html2canvas from 'html2canvas';
+import phoebeImg from './assets/phoebe.jpg';
+import lujuImg from './assets/luju.png';
+import erinImg from './assets/erin.png';
 
 // --- 0. 全域樣式 ---
 const GlobalStyles = () => (
@@ -54,7 +57,7 @@ const designers = [
     color: 'text-[#CCFF00]', borderColor: 'border-[#CCFF00]', bg: 'bg-[#CCFF00]', radarColor: '#CCFF00',
     stats: { logic: 100, speed: 60, aesthetic: 70, sanity: 90, social: 40 },
     luckyItem: '機械鍵盤', partner: 'Erin',
-    imageSrc: '/luju.png'
+    imageSrc: lujuImg
   },
   {
     id: 'phoebe',
@@ -67,7 +70,7 @@ const designers = [
     color: 'text-[#FF0099]', borderColor: 'border-[#FF0099]', bg: 'bg-[#FF0099]', radarColor: '#FF0099',
     stats: { logic: 40, speed: 70, aesthetic: 100, sanity: 60, social: 90 },
     luckyItem: '香氛蠟燭', partner: 'Lu Ju',
-    imageSrc: '/phoebe.jpg'
+    imageSrc: phoebeImg
   },
   {
     id: 'erin',
@@ -80,7 +83,7 @@ const designers = [
     color: 'text-[#00FFFF]', borderColor: 'border-[#00FFFF]', bg: 'bg-[#00FFFF]', radarColor: '#00FFFF',
     stats: { logic: 50, speed: 100, aesthetic: 80, sanity: 30, social: 80 },
     luckyItem: '冰美式', partner: 'Phoebe',
-    imageSrc: '/erin.png'
+    imageSrc: erinImg
   }
 ];
 
