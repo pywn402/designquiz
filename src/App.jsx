@@ -54,7 +54,7 @@ const designers = [
     color: 'text-[#CCFF00]', borderColor: 'border-[#CCFF00]', bg: 'bg-[#CCFF00]', radarColor: '#CCFF00',
     stats: { logic: 100, speed: 60, aesthetic: 70, sanity: 90, social: 40 },
     luckyItem: '機械鍵盤', partner: 'Erin',
-    imageSrc: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=800&auto=format&fit=crop'
+    imageSrc: '/luju.png'
   },
   {
     id: 'phoebe',
@@ -80,7 +80,7 @@ const designers = [
     color: 'text-[#00FFFF]', borderColor: 'border-[#00FFFF]', bg: 'bg-[#00FFFF]', radarColor: '#00FFFF',
     stats: { logic: 50, speed: 100, aesthetic: 80, sanity: 30, social: 80 },
     luckyItem: '冰美式', partner: 'Phoebe',
-    imageSrc: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop'
+    imageSrc: '/erin.png'
   }
 ];
 
