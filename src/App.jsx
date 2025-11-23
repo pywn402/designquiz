@@ -67,7 +67,7 @@ const designers = [
     color: 'text-[#FF0099]', borderColor: 'border-[#FF0099]', bg: 'bg-[#FF0099]', radarColor: '#FF0099',
     stats: { logic: 40, speed: 70, aesthetic: 100, sanity: 60, social: 90 },
     luckyItem: '香氛蠟燭', partner: 'Lu Ju',
-    imageSrc: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop'
+    imageSrc: '/phoebe.jpg'
   },
   {
     id: 'erin',
